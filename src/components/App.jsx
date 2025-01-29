@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [countries] = useState(dataJson)
+  const [countries, setCountries] = useState(dataJson)
 
   const [searchValue, setSearchValue] = useState("")
 
@@ -25,6 +25,8 @@ function App() {
   }
 
   // const filterContinent = ["All", ...new Set(conutries.map((country)=> country.continents[0]))]
+
+  
  
 
 

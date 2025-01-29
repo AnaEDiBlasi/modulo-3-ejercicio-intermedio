@@ -6,7 +6,9 @@ function Country({countryData}) {
       <p>{countryData.flag}</p>
       <h3>{countryData.name.common}</h3>
       <h4>{countryData.capital}</h4>
-      <p>{countryData.continents}</p>
+      <ul>
+      {countryData.continents.map((item, i) => <li key= {i}>{item}</li>)}
+      </ul>
 
     </article>
   )

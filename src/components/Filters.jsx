@@ -1,6 +1,6 @@
 
 
-function Filters({changeSearch, changeContinent, filterContinent} , ) {
+function Filters({changeSearch, changeContinent} , ) {
 
   const handleInput = (event)=>{
 //subir a app los datos del input
@@ -14,10 +14,6 @@ function Filters({changeSearch, changeContinent, filterContinent} , ) {
     changeContinent(event.target.value)
 
   }
-
-
-
-
 
 
 
